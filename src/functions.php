@@ -1,6 +1,6 @@
-<?php
+<?php namespace Mailgun;
 
-function asyncMail($data)
+function send($data)
 {
 	// TODO: attachments
 	global $mailgun;
